@@ -194,7 +194,7 @@ int main(int argc, char** argv)
         //Code here (calculate v0c, v1c, v2c here)
         // 
         //모든 좌표값을 [-1,1]로 바꾸기 위해 : NDC
-        //x,y,z를 w로 나누어 줌
+        //x,y,z를 w로 나누어 줌 원래 자동으로 해줌
         v0c.x /= v0c.w;
         v0c.y /= v0c.w;
         v0c.z /= v0c.w;
